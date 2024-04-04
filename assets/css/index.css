@@ -12,7 +12,7 @@
 }
 .contenedor-derecho{
     min-width: 80%;
-    background-color: blueviolet;
+    background-color: rgb(19, 118, 83);
 }
 .cajas{
     display: flex;
