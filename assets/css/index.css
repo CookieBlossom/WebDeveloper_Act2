@@ -2,64 +2,69 @@
     margin: 0;
     padding: 0;
 }
+li{
+    list-style: none;
+}
 .container{
     min-height: 100vh;
     display: flex;
 }
 .contenedor-izquierdo{
     min-width: 20%;
-    background-color: rgb(4, 210, 242);
+    color: rgb(255, 255, 255);
+    background-color: rgb(46, 38, 38);
 }
 .contenedor-derecho{
     min-width: 80%;
-    background-color: rgb(19, 92, 118);
+    background-color:  rgb(46, 38, 38); 
 }
 .contenedor-azul{
     background-color: rgba(0, 119, 255, 0.928);
     height: 100%;
-    padding: 10px 0 px;
     text-align: center;
 }
 .contenedor-amarillo{
     background-color: rgb(255, 255, 0);
     height: 100%;
-    padding: 10px 0px;
     text-align: center;
 }
 
 .contenedor-naranjo{
     background-color: rgba(255, 166, 0, 0.942);
     height: 100%;
-    padding: 10px 0px;
     text-align: center;
 }
 .contenedor-rojo{
     background-color: rgb(246, 9, 9);
     height: 100%;
-    padding: 10px 0px;
     text-align: center;
 }
-.parrafo{
-    padding: 10px 0px;
-    justify-content: space-around;
-}
-
 .cajas{
     display: flex;
-    margin: 25px;
-    height: 100vh;
+    height: 100%;
     flex-direction: column;
-    justify-content: space-around;
 }
 .contenedor-lista{
-    background-color: brown;
     display: flex;
+    padding-top: 4px;
+    justify-content: center;
 }
+.data{
+    padding: 5px 100px;
+    text-align: left;
+}
+
 @media (max-width: 300px) {
     .cajas{
         margin: 10px;
     }
     .contenedor-derecho p{
         font-size: small;
+    }
+}
+
+@media (max-width: 750px){
+    .data{
+        padding: 2px 30px;
     }
 }
